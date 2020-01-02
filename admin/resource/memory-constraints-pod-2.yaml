@@ -3,7 +3,7 @@ kind: Pod
 metadata:
     name: constraints-mem-demo-2
 spec:
-    containters:
+    containers:
     - name: constraints-mem-demo-2-ctr
       image: nginx
       resources:
