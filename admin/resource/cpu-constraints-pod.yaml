@@ -3,7 +3,7 @@ kind: Pod
 metadata:
     name: constraints-cpu-deno
 spec:
-    contaniners:
+    containers:
     - name: constraints-cpu-demo-ctr
       image: nginx
       resources:
